@@ -4,12 +4,11 @@
 int num(void);
 void hash(int n);
 void posthash(int n);
+
 int main(void) 
 {
     int number = num();
     hash(number);
-    
-    
 }
 
 int num(void)
