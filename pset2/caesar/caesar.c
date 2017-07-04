@@ -34,8 +34,6 @@ int main(int argc, string argv[])
             if (isalpha(temp))
             {
                int number = temp;
-              // if (key <= 26)
-             //  {
                     if (number >= 65 && number<=90)
                     {
                         int n1 = number + key;
@@ -89,11 +87,6 @@ int main(int argc, string argv[])
                     {
                         printf(" ");
                     }
-            //   }
-               //else if (key > 26)
-              // {
-                   
-              // }
             }
             else 
             {
